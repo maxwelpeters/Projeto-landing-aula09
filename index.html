@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto_landing</title>
     <!--ICONES-->
-    <script src="./assets/css/icomoon.css"></script>
+    <link rel="stylesheet" href="./assets/css/icomoon.css">
     <!--FONT POPPINS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,20 +16,20 @@
 </head>
 <body>
     <header id="header">
-        <nav class="container">
+        <nav class="container show">
             <a class="logo" href="#">beauty<span>salon</span>.</a>
             <!--MENU-->
             <div class="menu">
-                <ul>
-                    <li><a href="#home">Inicio</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#services">Serviços</a></li>
-                    <li><a href="#testimonials">Depoimentos</a></li>
-                    <li><a href="contact">Contato</a></li>
+                <ul class="grid">
+                    <li><a class="title" href="#home">Inicio</a></li>
+                    <li><a class="title" href="#about">Sobre</a></li>
+                    <li><a class="title" href="#services">Serviços</a></li>
+                    <li><a class="title" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="title" href="contact">Contato</a></li>
                 </ul>
             </div> <!--/MENU-->
-            <div class="open">...</div>
-            <div class="close">x</div>
+            <div class="icon-menu"></div>
+            <div class="icon-close"></div>
         </nav>
     </header>
     <main>
@@ -39,8 +39,12 @@
                     <img src="./assets/img/corteCabelo.jpg" alt="mulher sorrindo penteando outra mulher">
                 </div>
                 <div class="text">
-                    <h1>Saúde natural para os seus cabelos</h1>
-                    <p>Um salão exclusivo em São Paulo, especializado em tratamentos naturais</p>
+                    <h2 class="title">
+                        Saúde natural para os seus cabelos
+                    </h2>
+                    <p>
+                        Um salão exclusivo em São Paulo, especializado em tratamentos naturais
+                    </p>
                     <a class="button" href="#">Agendar um horário</a>
                 </div>
 
